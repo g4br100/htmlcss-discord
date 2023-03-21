@@ -1,11 +1,11 @@
 
 body{
     margin: 0;
-    font-family:Helvetica, sans-serif;
+    font-family: Whitney, Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 header{
-     background-color: blue;
+     background-color: #2a5ee8;
      color: white;
      font-size: 15px;   
 }
@@ -34,9 +34,10 @@ header{
     background-color: white;
     margin-block-start: 0;
 }
-.container1{
-    background-color: blue;
-    min-height: 500px;
+.jumbotron{
+    background-image:url(img/jumbo.png);
+    background-size:cover;
+    min-height: 780px;
     margin-block-start: 0;
     color: white;
     text-align: center;
@@ -46,28 +47,32 @@ header{
 
 }
 
-.container2{
+.container1{
     min-height: 662px;
     padding-right: 15%;
+    padding-left: 15%;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
 }
 
-.container3{
+.container2{
     min-height: 840px;
     padding-left: 15%;
 }
 
-.container4{
+.container3{
     min-height: 710px;
     padding-right: 15%;
 }
 
-.container5{
+.container4{
     min-height: 1423px;
     text-align: center;
 }
 
 .title1, .title2{
-    padding-top: 80px;
     display: block;
     margin-block-start: 0px;
     font-size: 40px;
@@ -84,7 +89,7 @@ footer{
 }
 
 .col1{
-    float: center;
+    padding-top: 10%;
 }
 
 button{
@@ -135,7 +140,7 @@ p{
 }
 
 .col2{
-    float: right;
+    padding-top: 5%;
 }
 
 
