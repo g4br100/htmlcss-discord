@@ -1,0 +1,153 @@
+
+body{
+    margin: 0;
+    font-family:Helvetica, sans-serif;
+}
+
+header{
+     background-color: blue;
+     color: white;
+     font-size: 15px;   
+}
+
+#main-nav{
+    min-height: 74px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#logo{
+    display: flex;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 500px;
+}
+
+.main{
+    display: flex;
+    background-color: white;
+    margin-block-start: 0;
+}
+.container1{
+    background-color: blue;
+    min-height: 500px;
+    margin-block-start: 0;
+    color: white;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 18px;
+
+}
+
+.container2{
+    min-height: 662px;
+    padding-right: 15%;
+}
+
+.container3{
+    min-height: 840px;
+    padding-left: 15%;
+}
+
+.container4{
+    min-height: 710px;
+    padding-right: 15%;
+}
+
+.container5{
+    min-height: 1423px;
+    text-align: center;
+}
+
+.title1, .title2{
+    padding-top: 80px;
+    display: block;
+    margin-block-start: 0px;
+    font-size: 40px;
+}
+
+.title2{
+    line-height: 57px;
+}
+
+footer{
+    height: 640px;
+    background-color: black;
+    color: white;
+}
+
+.col1{
+    float: center;
+}
+
+button{
+    padding: 5px;
+    height: 50px;
+    color: white;
+    border-radius: 35px;
+    font-size: 17px;
+    border-color: rgba(240, 248, 255, 0);
+    font-weight: 300;
+
+}
+
+
+#mac{
+    background-color: white;
+    color: black;
+    width: 200px;
+    margin-right: 20px;
+}
+
+#mac2{
+    background-color: blueviolet;
+    width: 200px;
+}
+
+
+#apri{
+    background-color: black;
+    width: 250px;
+}
+
+#login{
+    float: left;
+    display: flex;
+    height: 35px;
+    padding: 13px;
+    background-color: white;
+    color: blue;
+    line-height: 0;
+    font-size: 15px;
+    width: 75px;  
+}
+
+p{
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.col2{
+    float: right;
+}
+
+
+.col3{
+    float: left;
+}
+
+.colf{
+    float: right;
+    
+}
+
+ul{
+    list-style-type:none;
+}
