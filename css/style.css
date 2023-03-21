@@ -27,6 +27,7 @@ header{
     display: flex;
     justify-content: space-between;
     flex-basis: 500px;
+    margin-left: -100px;
 }
 
 .main{
@@ -47,29 +48,34 @@ header{
 
 }
 
-.container1{
-    min-height: 662px;
+
+.container1, .container2, .container3, .container4 {
     padding-right: 15%;
     padding-left: 15%;
     display:flex;
     justify-content: space-between;
     align-items: flex-start;
+}
 
+.container2, .container4{
+    background-color: whitesmoke;
+}
+.container1{
+    min-height: 662px;
 }
 
 .container2{
     min-height: 840px;
-    padding-left: 15%;
 }
 
 .container3{
     min-height: 710px;
-    padding-right: 15%;
 }
 
 .container4{
     min-height: 1423px;
     text-align: center;
+    justify-content: space-evenly;
 }
 
 .title1, .title2{
@@ -79,7 +85,12 @@ header{
 }
 
 .title2{
+    margin-top: 20px;
     line-height: 57px;
+}
+
+.title3{
+    padding-top: 100px;
 }
 
 footer{
@@ -89,7 +100,11 @@ footer{
 }
 
 .col1{
-    padding-top: 10%;
+    padding-top: 15%;
+}
+
+#big{
+    width: 1120px;
 }
 
 button{
@@ -100,7 +115,6 @@ button{
     font-size: 17px;
     border-color: rgba(240, 248, 255, 0);
     font-weight: 300;
-
 }
 
 
@@ -112,7 +126,7 @@ button{
 }
 
 #mac2{
-    background-color: blueviolet;
+    background-color: #7289da;
     width: 200px;
 }
 
@@ -143,16 +157,9 @@ p{
     padding-top: 5%;
 }
 
-
-.col3{
-    float: left;
-}
-
 .colf{
-    float: right;
-    
 }
 
-ul{
+footer ul{
     list-style-type:none;
 }
