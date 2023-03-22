@@ -223,3 +223,7 @@ i{
 .white{
     transform: rotate(3.142rad);
 }
+
+#hrf{
+    border-color: #7289da;
+}
