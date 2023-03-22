@@ -200,3 +200,17 @@ footer{
 hr{
     color: black;
 }
+
+
+#ita{
+    width: 21px;
+}
+
+#itxt{
+    font-size: 13px;
+}
+
+i{
+    padding-top: 12px;
+    padding-right: 12px;
+}
