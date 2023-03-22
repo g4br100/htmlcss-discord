@@ -32,7 +32,6 @@ header{
 
 .main{
     display: flex;
-    background-color: white;
     margin-block-start: 0;
 }
 .jumbotron{
@@ -45,9 +44,7 @@ header{
     padding-left: 15%;
     padding-right: 15%;
     font-size: 18px;
-
 }
-
 
 .container1, .container2, .container3, .container4 {
     padding-right: 15%;
@@ -87,10 +84,12 @@ header{
 .title2{
     margin-top: 20px;
     line-height: 57px;
+    
 }
 
-.title3{
-    padding-top: 100px;
+#stars{
+    margin-block-end: -40px;
+    height: 44px;
 }
 
 footer{
@@ -105,6 +104,7 @@ footer{
 
 #big{
     width: 1120px;
+    padding-bottom: 50px;
 }
 
 button{
@@ -137,8 +137,6 @@ button{
 }
 
 #login{
-    float: left;
-    display: flex;
     height: 35px;
     padding: 13px;
     background-color: white;
@@ -162,4 +160,43 @@ p{
 
 footer ul{
     list-style-type:none;
+    line-height: 40px;
+    font-size: 14px;
+}
+footer ul li:first-of-type, #titlef{
+        color: #7289da;
+}
+footer ul li:first-of-type{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+footer{
+    padding-top: 50px;
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: #23272a;
+}
+.f1{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#f2{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 11px;
+}
+
+#sign{
+    height: 35px;
+    width: 80px;
+    background-color: #7289da;
+    font-size: 13px;
+}
+
+hr{
+    color: black;
 }
